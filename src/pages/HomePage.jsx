@@ -3,6 +3,7 @@ import {
   Flex,
   Heading,
   Image,
+  Link,
   Stack,
   Text,
   useBreakpointValue,
@@ -66,7 +67,12 @@ const HomePage = () => {
                   Browse Movies
                 </Button>
               </NavLink>
-              <Button rounded={"full"}>GitHub</Button>
+              <Link
+                href="https://github.com/ElliotCyber/React-Movie-Land"
+                target="_blank"
+              >
+                <Button rounded={"full"}>GitHub</Button>
+              </Link>
             </Stack>
           </Stack>
         </Flex>
